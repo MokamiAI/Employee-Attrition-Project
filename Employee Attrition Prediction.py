@@ -7,7 +7,7 @@
 # 
 # Artificial intelligence is commonly used in various trade circles to automate processes, gather insights on business, and speed up processes. You will use Python to study the usage of artificial intelligence in real-life scenarios - how AI actually impacts industries. 
 # 
-# Employees are the most important entities in an organization. Successful employees offer a lot to organisations. In this notebook, we will use AI to predict the attrition rate of employees or how often a company can retain employees.
+# Employees are the most important entities in an organization. Successful employees offer a lot to organizations. In this notebook, we will use AI to predict the attrition rate of employees or how often a company can retain employees.
 # 
 # ## Context
 # 
@@ -15,7 +15,7 @@
 # 
 # 
 # 
-# ## Use Python to open csv files
+# ## Use Python to open CSV files
 # 
 # We will the [scikit-learn](https://scikit-learn.org/stable/) and [pandas](https://pandas.pydata.org/) to work with our dataset. Scikit-learn is a very useful machine learning library that provides efficient tools for predictive data analysis.  Pandas is a popular Python library for data science. It offers powerful and flexible data structures to make data manipulation and analysis easier.
 # 
@@ -56,8 +56,8 @@ from sklearn.metrics import mean_squared_error
 # In[3]:
 
 
-train = pd.read_csv("[Dataset]_Module11_Train_(Employee).csv") 
-test = pd.read_csv("[Dataset]_Module11_Test_(Employee).csv")
+train = pd.read_csv("[Dataset]_Train_(Employee).csv") 
+test = pd.read_csv("[Dataset]_Test_(Employee).csv")
 
 
 # ## Printing the columns of the training set
